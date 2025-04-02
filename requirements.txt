@@ -3,7 +3,7 @@ pandas
 numpy
 
 # Dashboard and visualization
-panel==1.6.2
+panel
 holoviews
 hvplot
 matplotlib
