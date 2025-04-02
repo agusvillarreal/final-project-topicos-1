@@ -1,35 +1,35 @@
-# Dashboard Interactivo para el Análisis de Meteoritos
+# Interactive Dashboard for Meteorite Analysis
 
-Este proyecto presenta un **dashboard interactivo** desarrollado en Jupyter Notebook para analizar el dataset de meteoritos. El dashboard permite la visualización de tendencias temporales, distribución de masas (con escala logarítmica), clasificaciones principales, un mapa interactivo global y diversas métricas descriptivas y de correlación.
+This project presents an **interactive dashboard** developed in a Jupyter Notebook to analyze a meteorite dataset. The dashboard allows you to explore temporal trends, mass distribution (with logarithmic scaling), primary classifications, an interactive global map, and various descriptive statistics and correlation metrics.
 
-El dataset utilizado fue obtenido desde [Kaggle](https://www.kaggle.com/) y se espera que se encuentre en la carpeta `data/` bajo el nombre `Meteorite_Landings.csv`.
+The dataset was obtained from [Kaggle](https://www.kaggle.com/) and is expected to be located in the `data/` folder under the filename `Meteorite_Landings.csv`.
 
 ---
 
-## Información del Proyecto
+## Project Information
 
-- **Presentado por:**  
+- **Presented by:**  
   - Agustín Villarreal Carrillo  
   - Víctor Manuel Mariscal Cervantes
 
-- **Asignatura:** Tópicos de Industria 1  
-- **Maestría en Cómputo Aplicado**  
-- **Lenguajes Utilizados:**  
+- **Course:** Topics in Industry 1  
+- **Master's in Applied Computing**  
+- **Languages and Tools Used:**  
   - [Jupyter Notebook](https://jupyter.org/)  
   - [Python 3.9.12](https://www.python.org/)
 
 ---
 
-## Requisitos Previos
+## Prerequisites
 
-- **Python:** Versión 3.9.12  
-- **Jupyter Notebook o JupyterLab**
+- **Python:** Version 3.9.12  
+- **Jupyter Notebook or JupyterLab**
 
 ---
 
-## Dependencias
+## Dependencies
 
-El proyecto utiliza las siguientes librerías:
+The project relies on the following Python libraries:
 - `pandas`
 - `numpy`
 - `panel`
@@ -39,43 +39,43 @@ El proyecto utiliza las siguientes librerías:
 - `folium`
 - `plotly`
 
-*Asegúrate de tener estas dependencias instaladas para que todas las celdas del notebook se ejecuten correctamente.*
+Make sure these dependencies are installed so that every cell in the notebook runs correctly.
 
 ---
 
-## Instalación y Configuración del Entorno Virtual
+## Installation and Virtual Environment Setup
 
-### 1. Clonar el Repositorio
+### 1. Clone the Repository
 
-Abre tu terminal y ejecuta:
+Open your terminal and execute:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd <NOMBRE_DEL_REPOSITORIO>
+git clone <REPOSITORY_URL>
+cd <REPOSITORY_NAME>
 ```
 
-### 2. Crear e Iniciar el Entorno Virtual (venv)
+### 2. Create and Activate the Virtual Environment
 
-Utiliza el siguiente comando para crear un entorno virtual con Python 3.9.12:
+Create a virtual environment using Python 3.9.12 with the following command:
 
 ```bash
 python3.9 -m venv venv
 ```
 
-Para activarlo, usa:
+Activate the virtual environment with:
 
-- **En Linux/Mac:**
+- **On Linux/Mac:**
   ```bash
   source venv/bin/activate
   ```
-- **En Windows:**
+- **On Windows:**
   ```bash
   venv\Scripts\activate
   ```
 
-### 3. Instalar las Dependencias
+### 3. Install Dependencies
 
-Asegúrate de contar con un archivo `requirements.txt` que contenga todas las librerías necesarias. Luego, ejecuta:
+Ensure you have a `requirements.txt` file containing all required libraries. Then install them with:
 
 ```bash
 pip install -r requirements.txt
@@ -83,32 +83,32 @@ pip install -r requirements.txt
 
 ---
 
-## Ejecución del Notebook
+## Running the Notebook
 
-Existen dos opciones para ejecutar el dashboard:
+There are two options to run the interactive dashboard:
 
-### Opción 1: Ejecutar Directamente en Jupyter Notebook
+### Option 1: Run Directly in Jupyter Notebook
 
-1. Inicia Jupyter Notebook:
+1. Start Jupyter Notebook:
    ```bash
    jupyter notebook
    ```
-2. Abre el archivo `dashboard_meteoritos.ipynb`.
-3. Ejecuta las celdas secuencialmente para cargar datos, aplicar filtros y generar las visualizaciones interactivas.
+2. Open the notebook file (e.g., `dashboard_meteorites.ipynb`).
+3. Execute the cells sequentially to load the data, apply filters, and generate interactive visualizations.
 
-### Opción 2: Ejecutar en un Servidor Interactivo (Recomendado)
+### Option 2: Run on an Interactive Server (Recommended)
 
-Para obtener una experiencia visual más atractiva y estética, se recomienda ejecutar el dashboard en un servidor interactivo con Panel. Para ello, utiliza:
+For a more visually appealing and refined experience, it is recommended to run the dashboard on an interactive server using Panel. To do so, execute:
 
 ```bash
-panel serve dashboard_meteoritos.ipynb --show
+panel serve dashboard_meteorites.ipynb --show
 ```
 
-Este comando lanzará un servidor interactivo en el que se podrá explorar el dashboard en tiempo real, con todos los controles y visualizaciones actualizados dinámicamente.
+This command will launch an interactive server where you can explore the dashboard in real-time, with all controls and visualizations updating dynamically.
 
 ---
 
-## Decoradores de los Lenguajes Utilizados
+## Language and Technology Badges
 
 - **Jupyter Notebook**  
   ![Jupyter](https://jupyter.org/assets/main-logo.svg)
@@ -118,17 +118,17 @@ Este comando lanzará un servidor interactivo en el que se podrá explorar el da
 
 ---
 
-## Notas Adicionales
+## Additional Notes
 
 - **Dataset:**  
-  El archivo `Meteorite_Landings.csv` debe estar ubicado en la carpeta `data/`.
+  The `Meteorite_Landings.csv` file must be located in the `data/` folder.
 
-- **Código Fuente:**  
-  Los módulos auxiliares y funciones personalizadas se encuentran en la carpeta `src/`.
+- **Source Code:**  
+  Auxiliary modules and custom functions are located in the `src/` folder.
 
-- **Contacto:**  
-  Si tienes dudas o encuentras inconvenientes, por favor contacta a los responsables del proyecto.
+- **Contact:**  
+  If you have any questions or encounter issues, please reach out to the project presenters.
 
 ---
 
-*Proyecto presentado para la asignatura de Tópicos de Industria 1 en la Maestría en Cómputo Aplicado por Agustín Villarreal Carrillo y Víctor Manuel Mariscal Cervantes.*
+*This project was developed for the Topics in Industry 1 course in the Master's in Applied Computing program by Agustín Villarreal Carrillo and Víctor Manuel Mariscal Cervantes.*
