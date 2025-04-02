@@ -1,6 +1,9 @@
+# Core data processing
 pandas
 numpy
-panel
+
+# Dashboard and visualization
+panel==1.6.2
 holoviews
 hvplot
 matplotlib
@@ -9,12 +12,20 @@ bokeh
 param
 colorcet
 datashader
+
+# Geospatial visualization
 geopandas
 folium
 shapely
+
+# Statistical analysis
 scipy
+
+# Jupyter environment
 jupyter
 notebook
-ipywidget
+ipywidgets
+
+# Optional dependencies
 pyproj
 requests
