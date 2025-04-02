@@ -29,3 +29,4 @@ ipywidgets
 # Optional dependencies
 pyproj
 requests
+scikit-learn
